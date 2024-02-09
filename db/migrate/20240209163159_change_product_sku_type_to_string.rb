@@ -1,0 +1,5 @@
+class ChangeProductSkuTypeToString < ActiveRecord::Migration[7.0]
+  def change
+    change_column :products, :productSku, :string
+  end
+end
